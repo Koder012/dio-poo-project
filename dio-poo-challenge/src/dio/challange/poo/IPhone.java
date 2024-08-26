@@ -30,31 +30,31 @@ public class IPhone implements Navegador,ReprodutorMusical,AparelhoTelefonico {
     @Override
     public void pausar() {
         // TODO Auto-generated method stub
-        System.out.println("");
+        System.out.println("Audio em pausa.");
     }
 
     @Override
     public void escolherMusica() {
         // TODO Auto-generated method stub
-      System.out.println("");
+      System.out.println("escolhendo a musica...");
     }
 
     @Override
     public void mostrarPagina(String url) {
         // TODO Auto-generated method stub
-        System.out.println("");
+        System.out.println("Pagina apresentada.");
     }
 
     @Override
-    public void addNewTab() {
+    public void adicionarNovaAba() {
         // TODO Auto-generated method stub
-        System.out.println("");
+        System.out.println("nova aba criada.");
     }
 
     @Override
     public void actualizarPagina() {
         // TODO Auto-generated method stub
-        System.out.println("");
+        System.out.println("Pagina actualizada.");
     }
 
 }
